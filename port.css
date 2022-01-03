@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #b6d7eb;
+  --border: 1px solid #b6d7eb;
+  --box-shadow: 0 5px 15px rgb(212, 212, 212);
+}
+
+@media (max-width: 576px) {
+  h2,
+  p {
+    text-align: center;
+  }
+  .primary-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+p {
+  color: gray;
+}
+
+.contact-links a {
+  padding: 20px 15px;
+  margin: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.about {
+  border: var(--border);
+  padding: 20px;
+  background-color: #b6d7eb;
+  box-shadow: var(--box-shadow);
+}
+
+.contact {
+  border: var(--border);
+  padding: 20px;
+}
+
+.primary-button {
+  border: var(--border);
+  background: var(--primary-color);
+  border-radius: 5px;
+  padding: 20px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.email {
+  text-decoration: none;
+  color: #70c2f5;
+}
